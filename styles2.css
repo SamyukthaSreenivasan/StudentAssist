@@ -1,0 +1,132 @@
+/* styles2.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4; /* Light background */
+    color: #333;
+}
+
+header.about-header {
+    text-align: center;
+    padding: 60px 20px;
+    background: #4caf50; /* Vibrant Green */
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+header.about-header h1 {
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+header.about-header p {
+    font-size: 1.4em;
+}
+
+section.about-content {
+    padding: 40px 20px;
+    background: #ffffff;
+    color: #333;
+    text-align: center;
+}
+
+section.about-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4caf50; /* Green for headings */
+}
+
+section.about-content p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 1.2em;
+}
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #4caf50; /* Green Line */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-item {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 6px;
+    position: relative;
+    width: 50%;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+}
+
+.timeline-content {
+    position: relative;
+    background: #f9f9f9; /* Slightly off-white background */
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.image-container img {
+    max-width: 20%; /* Ensures the image scales with its container */
+    height: auto; /* Maintains the aspect ratio */
+    width: 50%; /* Adjust this value as needed to reduce size */
+    border-radius: 8px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for effect */
+}
+
+
+section.call-to-action {
+    background: #ff9800; /* Orange */
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+section.call-to-action h2 {
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+section.call-to-action p {
+    font-size: 1.2em;
+}
+
+section.call-to-action a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #4caf50; /* Green */
+    color: #ffffff;
+    margin-top: 40px;
+}
